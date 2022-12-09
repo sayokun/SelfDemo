@@ -1,10 +1,12 @@
-﻿namespace ConsoleApp
+﻿using Microsoft.Extensions.DependencyInjection;
+
+namespace ConsoleApp
 {
 	internal class Program
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello, World!");
+			ServiceCollection services = new ServiceCollection();
 		}
 	}
 }
